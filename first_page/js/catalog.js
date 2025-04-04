@@ -18,12 +18,27 @@ let  items = document.getElementById("clothes");
 if (items && Array.isArray(clothes)) {
     clothes.forEach(function(cloth) {
         let newcode= ` <div class="cloth">
-        <img src="${cloth.images}" alt="${cloth.name}">
+        <img src="${cloth.image}" alt="${cloth.name}">
         <h3>${cloth.name}</h3>
         <p class="description">${cloth.description}</p>
         <p class="price"><i>${cloth.price} ${cloth.currency}</i></p>
         <a href="#">Подробнее</a>
     </div>`
         items.insertAdjacentHTML('beforeend', newcode);
+    })
+}
+
+let houseHold = document.getElementById("appliances");
+
+if (houseHold && Array.isArray(appliances)){
+    appliances.forEach(function(appliance){
+        let Globalnewcode= ` <div class="appliance">
+        <img src="${appliance.image}" alt="${appliance.name}">
+        <h3>${appliance.name}</h3>
+        <p class="description">${appliance.description}</p>
+        <p class="price"><i>${appliance.price} ${appliance.currency}</i></p>
+        <a href="#">Подробнее</a>
+    </div>`
+        houseHold.insertAdjacentHTML('beforeend', Globalnewcode);
     })
 }

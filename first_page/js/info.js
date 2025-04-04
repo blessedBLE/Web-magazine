@@ -105,8 +105,8 @@ let clothes = [
             id: 1,
             name: "Футболка Nike",
             description: "Качественная футболка с логотипом Nike. Удобная и стильная.",
-            image: "path/to/tshirt-nike.jpg",
-            price: "1299",  // Цена в BYN
+            image: "https://img.brandshop.ru/cache/products/d/dz2833-010-0_1104x1104.jpg",
+            price: "259",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Nike"
@@ -115,8 +115,8 @@ let clothes = [
             id: 2,
             name: "Джинсы Levi's",
             description: "Модные джинсы Levi's с прямым кроем, идеальные для повседневной носки.",
-            image: "path/to/jeans-levis.jpg",
-            price: "4999",  // Цена в BYN
+            image: "https://www.oldschooljeans.ru/images/Levi-jeans/005054886-head.jpg",
+            price: "399",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Levi's"
@@ -125,7 +125,7 @@ let clothes = [
             id: 3,
             name: "Куртка The North Face",
             description: "Зимняя куртка с утеплением от The North Face, предназначенная для холодной погоды.",
-            image: "path/to/jacket-northface.jpg",
+            image: "https://assets.thenorthface.eu/images/t_img/f_auto,h_462,w_462,e_sharpen:60/dpr_2.0/v1720740527/NF0A4R35JK3-ALT14/Womens-Himalayan-Insulated-Jacket.png",
             price: "8999",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
@@ -135,8 +135,8 @@ let clothes = [
             id: 4,
             name: "Кеды Adidas",
             description: "Удобные и стильные кеды от Adidas для активного отдыха.",
-            image: "path/to/sneakers-adidas.jpg",
-            price: "1599",  // Цена в BYN
+            image: "https://bunt.by/wp-content/uploads/2021/07/FX5812.jpg",
+            price: "450",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Adidas"
@@ -145,8 +145,8 @@ let clothes = [
             id: 5,
             name: "Футболка Puma",
             description: "Легкая футболка Puma с технологией отвода влаги, идеальная для спорта.",
-            image: "path/to/tshirt-puma.jpg",
-            price: "799",  // Цена в BYN
+            image: "https://metarun.by/assets/images/products/46625/52585801.jpg",
+            price: "499",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Puma"
@@ -155,8 +155,8 @@ let clothes = [
             id: 6,
             name: "Пальто Hugo Boss",
             description: "Элегантное пальто от Hugo Boss, выполненное из высококачественного материала.",
-            image: "path/to/coat-hugo-boss.jpg",
-            price: "14999",  // Цена в BYN
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBvehjLglN-jhpC2BkqMfH2oU1uqOgoDWf6Dd45lDlvD0XcVddBwS9b0&usqp=CAE&s",
+            price: "599",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Hugo Boss"
@@ -165,8 +165,8 @@ let clothes = [
             id: 7,
             name: "Термобелье Under Armour",
             description: "Термобелье для активных людей, обеспечивающее тепло и комфорт в холодную погоду.",
-            image: "path/to/under-armour-thermal.jpg",
-            price: "1699",  // Цена в BYN
+            image: "https://sport-tgt.by/uploads/Products/294/thumb-4158505896817e00281758e93713c0bf.jpg",
+            price: "299",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Under Armour"
@@ -175,8 +175,8 @@ let clothes = [
             id: 8,
             name: "Шорты Reebok",
             description: "Удобные спортивные шорты от Reebok для тренировок и активного отдыха.",
-            image: "path/to/reebok-shorts.jpg",
-            price: "1199",  // Цена в BYN
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6fognHpMRis-OtGVeur1ZdE1bs-cS0dXu5w&s",
+            price: "399",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Reebok"
@@ -185,8 +185,8 @@ let clothes = [
             id: 9,
             name: "Рюкзак Eastpak",
             description: "Практичный и стильный рюкзак от Eastpak, подходящий для города и путешествий.",
-            image: "path/to/eastpak-backpack.jpg",
-            price: "3499",  // Цена в BYN
+            image: "https://cdn1.ozone.ru/s3/multimedia-1-s/7354358704.jpg",
+            price: "299",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Eastpak"
@@ -195,8 +195,8 @@ let clothes = [
             id: 10,
             name: "Сумка Michael Kors",
             description: "Стильная кожаная сумка от Michael Kors для повседневного использования.",
-            image: "path/to/michael-kors-bag.jpg",
-            price: "13999",  // Цена в BYN
+            image: "data:image/jpeg;base64,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",
+            price: "550",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Michael Kors"
@@ -205,8 +205,8 @@ let clothes = [
             id: 11,
             name: "Ботинки Timberland",
             description: "Классические ботинки Timberland для активного отдыха и города.",
-            image: "path/to/timberland-boots.jpg",
-            price: "8999",  // Цена в BYN
+            image: "https://i.otzovik.com/objects/b/100000/95054.png",
+            price: "999",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Timberland"
@@ -215,7 +215,7 @@ let clothes = [
             id: 12,
             name: "Перчатки The North Face",
             description: "Теплые и удобные перчатки от The North Face для зимних прогулок.",
-            image: "path/to/gloves-northface.jpg",
+            image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBUQEhIVEBUXGBUQFRAVEBUVFRcYFxUWFhUWFhUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKysrNysrNysrKysrKysrKys3KysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABwgFBgECBAP/xABPEAABAwICBgQHCA8HBQAAAAABAAIDBBEFEgYHEyExQVFhgZEiMnGSobHBCCNScnSis8IUJCU1QlRiZHOTo7LD0fAVFzRTY4KDQ5Sk0tP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJxREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERARFoWm2tCnw+f7GETqmUAGRrXhjWXF2guIPhEEGwHAjpQb6i1rQjTODE4nPiDo3xkNkhfbM298rgRuc02Nj1FbKgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgLH4njlLTENqKmCnLhdolnjjJA4kBxFwsgqm6W176ivqZ3m5dLIBfkxji2No6g0AILYRyBwDmkOBAIcDcEHgQRxCqpp3UGTFKx35xMz9W8xj0MClL3P+MudDPQvJIiLZogeTJLhzR1Bzb/8iibSd96+r66mpPfPIg3PULORij2XNnU0lxyJbJCQfKLu7yvpru0plkrTQxyObDC1udjXEB8rgHkut4wDSwAcjm7PLqMP3WHyeb9+JappvOX4nWuPH7Jnb2MkcwehoQSrqJ0olm21DNI6XI0Twue4ucG3yyMud5aCWEdGYjha0uquuoqS2LgdNPMPnRH2Kws9Qxgu97WAkAFzg0XPAXPNB9UREBERAREQEREBEXDjYX7UGma1NKpsPpGSU4YZJJBHd7S4NaGuc4hoIubho7VEz9beKn/qxN8lO323Xv1pacU+IwwshjmiLCJjtWxgFkkd22yPdv3jjZRsUG5u1qYv+NAeSng9rF1/vSxf8b/8en/+a01EG7xa18WBuahr+p1PFb5rQV649cWKD8Wd8and9WQKPkQWD1Waez4k+aKoZEx0bWSNdEHtBBJDgWuc7ePB335qRFBGoE/b84/Nz9LGp3QEREBERAVRcbbapnHRLKP2jgrdKp2lsOTEKtp5VNR3bZ5HoIQbPqRrNnjDWXttYpordJGWUdtonelanpMLV9WOipqR+2espqzqNnjNE4njI5n6yKSMelyxml33yrR+d1X08iDb9RTvutbpp5h8+E+xaVpPJmr6t3TU1Lu+Z5W56i3D+1wOmnmA86I+xR7Uz7SR8nw3vk85xd7UG+ajhfGGdUMx/dHtWP1rY86sxSYXLooXOpomcQMhyyOA6XPDt/MBvQvZqVnEeKGQ8G01Q/zch9i0WOUvdndvLrvd1l28nvKCweofE3y4c+J7i7YTGJlyTaMxse1u/kC5wHQLDkpJUT+58I+xqsAW9+abf8Y/kpYQEREBERAREQF8axhdG9rbBxa4Ak2FyDa5HJfZcEckFWdJ8ClpRE6QsIewRNyF1700cMcmYOa21y4EdI39C18qV9e9AyE0TWAtbaq4kkXJpzxPaonLv6sgIuuby9xXN/L3FByuVxf+rIHBBJ+oH74TfJz9LGp5Vf8AUNNbFHt+FTSeiWE/zVgEBERAREQFV7WbFlxesbw98DvOjY/6ytCq265IsuMzn4bYX/sWs+oEGsaPzZK2lfe2Wop3X6LTMXbSt18RrD01VUf28ixwcQQ4biCHA9YNx6UnmdJI+V9sz3ukdbhd7i427SUG26rK4QYox53Aw1Lb36IXSfw/StIh4DyD1L03I3glp37wbHeLHeOokL4NCDa9X8xjkrZQbFmH1jgeshjW+lwWrxW58F7cNr9lHUt4GaAU47aiCR482Ny8IQTj7nkHY1h5bSIDyhjifQWqXVG+oSkyYW6T/Nnkf2NayK3fG7vUkICIiAiIgIiIC1bFtYOH01Q+mnmMb2WzHZSOaLtD7FzQeTh3raVDOleqqvqq2edktMGSyOeC+WUPDXHgWiIi4G7jyQfDXxjDJfsOOKRsjLSzEscHC52bWHd1bTvUSlZvS/RqTDqo00j43uLWzZo81rOLgLggWd4B3b9xG9YRBwuUXCDlERBsmrvFTTYpSyXIDpGwPsdxbKdn4XUC5rv9o6FaNU5BPIkHkRxB5EK2GimLisooKoW98ja5wB3B48GRvY8OHYgyyjLXdpRPSQwQU73QunMpfKw2eGR5Bla4b2kmQG43+D1qTVH2unRp1XQieMXkpi6W3N0RA2zR1+C13XktzQRLo1rExGkeDt31LL3dDUSOkBG69nuJcw9Fjbfcgqf9EtKafEYdrA6xFhJC7x4yeRHMGxs4bjY8wQKsBlv6/rqWR0c0gnoahtTA7K4bnNNy17fwmPHMH0biOCC2SrprybbGD1wQn0yD2KbtDtKYcRphPF4JHgyQk3dG/m09I5g8x0bwIb1+QWxSN/J1NGO1ss1/QWoI3uuV1XZAXyPFfVfN/FB1XICLloQWc1RQ5MFpR0iR/nzSP9q3Ba9q9gyYTRNO4/Y8Lj5XMDj61sKAiIgIiICIiAiIgrXrfq9pjFR0M2cIPxY2k/Oc4di0xZHSCt21XPNe+0mlkB47nSOc0dgIHYsddQfeGjkewyNY5zWnKXAXscrn2txPgscTbgBvtcX7UdBJLm2bcxZa7MwDt7gywBtmdmIblG8kgAFezRzEnwzNG12UZJMl7luUWc+wG8POzaAW2cSGjqW41LS0taI8ri3MJGSBkkhbFNDEA8kudM0+ET74GCMO8YlURyP5HvFx6FyQpjgwmGrBNSwPjsYYy0uaWEu3OAc0OjNtnu3+PY3aBaK8eww0tTLTk5sjrB9vGaQHMPlLXC/XdB4Apr1BaQB0MuHOPhRuNRHv4xvIDwB+S/ef0gUKL0YListLUNqYHZJGOzNPI8i1w5tIuCOgoLfIVh9E9IYq+kZVRbs258d7mN48djvIefMEHgVmEFctaWhpw+p2kTftWZxMVuEb7EuhPVxLeq4/BK0Yq3GNYTDVwPpp2Z43ixHMcw5p5OBsQeRCrHpjo1Lh9U6nku4eNHLawkZycOg8iOR6iCYPHgOOVFFMJ6aQxvtlO67XNvfK9vBw9XIgr0aV6T1GIzCeoyBzWCNrY2FrAASb2LnG5Ljz6FhlwqOFyCi6koOxXycd6F11woOVy7xTboNlwFkdH4c9XTR8c88EdvjSsafWqLa0FOI4o4hwYxsY/wBrQPYvuiICIiAiIgIiICxelFdsKGpn5xwyyDytY4j02WUWm636ox4PUW4u2UXY+Vgf83MgrVbcB0blwuxXVQLr20GKyw2yG7QcwY4Zmg8btPFhub3YWm4BvuXiRBIGAabwNa2KZjoN7LyMGdngkvLi0DMC5xtYA2Ft+5atpRiAqKyaZpu0uDWnpaxoYD25b9qxC7hUF82heqkpnSyMiZvc97ImgmwzPcGtBPLeQu+I4bLTyugnjdDIzc6Nw3joNxuIPIgkHkVBsGrrTF+GVOY5n08lmzxDebcpGj4bfSLjoIsrRVcc0bZoniRjwHse03BB4EKoFlImqDTU0k4o5nfa0zg1pJ3RSuNg4dDHHcRwBIdu8K9Fglr+m2iseI0xhf4Egu6Ga1yx9uY5tPBzeY6wCNgRBUbF8MlppnwTMySMJa5vHluIPNpFiD0HrXhIsrIazdBm4jDtIgG1UY97fw2jd5MTz0b7gngegE3rjVU7o3uY9pa5pLS0gggg2II5EEHcoPk56+ZK7FdUBERByFsWr+n2mK0TP9eN/wCrO1+otdC2vVeB/a1K4uaxrHPkc9zg1oaIn3Nz5QO1UWiRa1Uad4ewyZpwGxtD3yhrnssXPa0BzAbkmN9gN5yk8FsUErXta9pDmuAc1w4EEXBHYg7oiICIiAiIgKNtfNRlw2Nnw6hjT5BHK/1tCklRJ7oOo96pIvhPlkt8RrG/xEEKErhcOXpnw+SKKCR9rTxmdg33yiV8fhAjcSYyRa+4jyKDzIiIC7hdAV3bwQZLRo2rqQ9FTTHunYVYzTrQ2HEocrrRzMB2VQBctPwXfCYeY7RYqtOHzZJY5PgyMf5rw72K3qoqTjmETUk76edmSRvEcQQeD2H8JptuPlG4ggY8i+4+RWk0z0Op8SiDJQWSNvsp2gZ2E8R+U02F2n0EAiIP7m8R22zzQbO/+I2jrZb8dnbNmt+Dwvuzc0Ez6FVz58OpZpDd74YnPPS7IMx7Tc9qzS8eDYcymp4qZly2KNkLSeJDGhtz1m117EBQrrz0YDHNxBjfBkIinAHB9ve5Oq4GUnpa3mVNSwGn1IyXC6tjxcCCSQD8qNpkYexzWnsQVSeLfzXVfaSPtXXIFB80XfZjr7yhjVHVbVoFoVJiskrGSthETWOc90ZeCXlwaAARv8Bx7Fq4j6/UrCaicPjZhpmaPfJZH7R1+OzcWsAHIAeklBjcE1Z1dNtWRywtL8rhU+C8549qI3fY8sL22yzOBAcD4AsRcqUcPhcyGON79q9rGMdLkDM7g0Bz8jdzbkE2G4XXoRAREQEREBERAUKe6Ck9+pG9DJXec5g+oprVf9ek2bEw2/iwRNty8eVxPzh3II0mdZpPQCpA1uUQgmoqYC2yoYI/NfI32FabhNLtamCHjtJoYiOp8jWn1qRNfrfuhCemnaO6WX+agi9xXsxPD3U8mxd4wZBIeG4y08Uxb2GS3YvDP4rvIfUts1mQ5MVqGcMopmd1HThBrtBTbWaOH/Mkjh897We1ZzT2gbBilXC0BrRKXtaNwAka2UADkBnsB0BeHRNt8Qoxx+2qX6di2vXdFlxdxtbNDC/y+Oy/zLdio0GQeC7yH1K4NI/NGx3S1p7wCqfO4HyFW5wV96aE9MUZ72BB7UREBERAWI0v+91X8nqPonrLrE6Xfe+r+Tz/AETkFUpl8V6JF8EBERByFYjUgfuS39LL+8D7VXdT/qGlvhsjfg1Dx3xxO9pQSQiIgIiICIiAiIgKvuu+K2Kk/CgiePJmkb62FWCWm6wtA24ls3tl2EsYLQ8sztc0m+Vzbg7jwN91zuN0EJ6sKAzYvSNtcNeZ3dQjY5wPnBg8pC2jX/8A46D9B/FcpC1f6v48NL5TJt53jIZMmVrWXvlY25O8gEknflHBR5r8/wAfD8nb9LIgjSkizysjIvmexlunM4Nt6VtOtd18arPjQjupoQsDgDQaymB51FOD+uYszrQH3YrP0jfoYwoPHoK2+KUXyiE9zwQt590BSgVdNLbe+F8d/wBFJm/jelaPoH99KL5RF+8pU1/0l6almt4sr4r9AkjLvXEFRCACtZodPnw6jk+FTwO74mlVVa1Wi1e/emi+TQfRtsg2BERAREQFhdNT9zaz5NUfROWaXxq6Zksb4njMx7XRvbci7XAhwuOolBUR4XyU91upijeSWVFTFf8AAvE5o8l483eSse/UfFyrZB5YWH1EIIVsubKZf7jm/j7v+1H/ALr6M1IR/hVrz5Kdg9bighWynL3P7vtOpH+uD3xRj2LvT6k6MG76qpf1DYtB6j72T6VvGjOjVNQRGKmYWNc7aOLnue5zrAXJcd24DcLBBmEREBERAREQEREBERAUH6/4vtqnd0xOb5ryfrKcFpmszQs4lCwxOayeLMYy4kMcHWzMcQCR4oINja3Wgr7o8wmtpQOJqKcD9cxZ3WxHbGav40Th208JPput/wBXeq6Wmqm1dY5l47mKFji7wrWD3kgDdc2Avvsbi1lrOvChLMTElt0sTHh3SWXY4dgDPOCDXdWkObF6Nv8Aql3mRvf9VT/rAwB1dh8tOy208GSK9gM7CHBtzwzC7b8syh3UlhxkxQS2JbDHJIXcgXjZtB6yHPI+KVYRBWeg0Fr5pRTiklhNw10skLmRsud79oQA8DfuaTfkrIYdRthhjgYLMjYyJo/JY0NHoC9CICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICxmPaP01bGI6mIStBu3e5rmnmWvaQ5vYVk0QY/BMEp6OPZU0TYWk5iG3JcbWu5xuXGwAuSVkERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/Z",
             price: "799",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
@@ -226,7 +226,7 @@ let clothes = [
             id: 13,
             name: "Футболка H&M",
             description: "Простая и удобная футболка для повседневной носки от H&M.",
-            image: "path/to/tshirt-hm.jpg",
+            image: "https://m.buro247.ru/images/2021/02/1613739429061329.jpg",
             price: "299",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
@@ -236,7 +236,7 @@ let clothes = [
             id: 14,
             name: "Шорты OVS",
             description: "Легкие шорты для отдыха от OVS, идеальные для жаркой погоды.",
-            image: "path/to/shorts-ovs.jpg",
+            image: "data:image/jpeg;base64,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",
             price: "499",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
@@ -246,7 +246,7 @@ let clothes = [
             id: 15,
             name: "Кроссовки Decathlon",
             description: "Удобные спортивные кроссовки для прогулок и тренировок от Decathlon.",
-            image: "path/to/sneakers-decathlon.jpg",
+            image: "data:image/jpeg;base64,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",
             price: "699",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
@@ -256,7 +256,7 @@ let clothes = [
             id: 16,
             name: "Термобелье Decathlon",
             description: "Недорогое термобелье для активных людей от Decathlon.",
-            image: "path/to/thermal-decathlon.jpg",
+            image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhIQFRISEBASFRIVFQ8PDw8QFREWFhUSFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDysZFRkrLSstLSsrKysrKys3LTcrKysrKysrKysrKysrLSsrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIDBwgGBAX/xABMEAABAwIBBwcGCQgKAwAAAAABAAIDBBEFBxIhMUFRYQYTcYGRofAIIlKxwdEjMkJTYnKSorIUM2Nzk7PC4RUkJTRDVHSCw/EWNYP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALxQhCAQhCAQhCAQhJdAqQr5uN45T0rOcnkawabDW93BrRpKpPlxlHmq7xQZ0NPuBLZZR9MjUPojrQWPy1yiU9GHRsLZqjUIwbtjO+Rw1dGtUZLyorDO6oFRM2V7rue17m33NzdWaNQFtS+ZId+3171Hm+Pag7agypYnGbumbKPRkjZp62Zp610tLlrltaSkjJ2lsjgD1EKpUXUFwOy1nZR9sn8l4qrLRUn83Swt4uc+TusFVocN6M/xZB2tdlQxSTVOyLhFHGO9+cV7OSmU6rhlvVSyTwu0ODhGHs+mywHYuBF93boTH53/AEg1RgnKWkqvzE7HOtfMvmyAcWnSvsLJeDYnJTSsmhdmyRklrrB1tFtuy1wro5J5VoJc1lWBDJoHOC5hcd+9njSqLMQo4ZmvaHNcHNIuHAgtI3ghSIBCEIBCEIBCEIBCEIBCEIBCEIBF0hKrvlnlQipy6KlDZZhoLzfmIzxtpeeAIHHYg7vEMQihYZJpGMYPlOIA/mqu5V5WwLx0LNOrn5BoHFjNp4u0cCqyxzlDUVT8+eVzzsB0MaNzWjQF8pxQe3EsUlneZJpHyPOtzjc9FtQHDUvE9yakaLnh60CxNvpKmKQJVAlt6A0bkICAc2+xOzU1GcgcmvSkppQRyNSMcpCo3hB0nJflnVUR+CkJZfTE/wA6J3V8k8RpVy8lMpNJVWY88xMdGY8jMcfov99lnS6ex9lRr4OCAVnbkdlGqqMhjyZoNF43Hzmjex+zo1dCvbk/jsFZEJoHZzToI1OY70XDYUH1EICEAhCEAhCEAhCEAgoSFBW2WLlW6CNtJC7NkmaXSOB85kN7WG4uN9O4cVRzzvXVZT60yYlUX+Q8RjoY0Cy5MlAOTSkcdyZdA47lI0JjG7d/cE8IHJCUJqgei+lNGhDEClyVNKVqBUJHFJdUOTSUXQSgiS2SOSgoFC6/JtyjdSVjNJ5mUiKRum1nEZr+lp28SuQClhfYgjWDcdIsg10Eq8OB1HOU8Mnpwxn7oXuQCEIQCEIQCEIQCChBQZZ5ZS51bUu31Ev4rexfDzl9LlA69TMf0834yvkyHuQKXJI9nRdQSP7fWpo9nQgnBSgpt0iCUJCm3QopRc60pKbdBKBxSX4JCkKByUFMui6Iegpl0hKBHoumOKa99lRKHXUzF5md+3hwU7SoNPZP5s7DqU/oGjs0LoVx+SaXOwyD6PON7HkLsFQIQhAIQhAIQhAJshsCdwPqTlBXG0bzuY8/dKDKGLuvNId8sh++V8+QeN4XqqnXcTvLj2leYoPFOdHDvCkpZLi/TdLOFBSayOF0Hvzkt1CUt1BMClUScB0Ip53pWpoKVvtugUnT0JEBCAJTSUqaUDi5MLkhKRAjyonSXNhsOvclqnWF9qhpkR7ox/3vUzVCxSoNBZFpL4cB6M0o7XX9q75VrkKkvRyt9GpPTpjYVZSoEIQgEIQgEIQgF8zlLPzdJO/0YJT90r6a5jKXUZmGVJ3xZn2iG+1BmeTx61C5TSqEoIZgvRh+BTyQy1bWjmKd8bJHEi+dIQA1rduktPWvPKrhyU4EKnBa6Ej+8SShp3PbE0MPU9oKCnUoSuB2ix2jcdyQKB4KcmNT7IpwSpt0XQPQkCUIEKQpyQqKjKYFIUxVH18Ew1ssNa9zQfyeidIL6bOLgA4cda+BAFZuTjCM/DsVlPyqbmRxGaXn2KsqXV0oj2MUoPjeomKUePcgurIJL8FUt3SROt0st/CrWVK5BJ7T1LNPnQxvsfovIP4grqCoEIQgEIQgEIQgFweWepzcNc35yaFn3s4/hXdlVZl6qSIaaP0ppH/YZYfjQUlIVGU96jcUEUi0lkco+bwqHfIZJOnOebLNjvHetY8iaTmqClj9Gnj7239qDNnLfD+YrqmICwbUSFo3NeecaOx4XwwF3+WykzMTcR/iwQv6XC7T6m9i4IKBbJyQIv42lFBR77JeHak9hQKD7x0pw8e5IANRSjXuO/egUJCgdA8bkdnrQNKjcpL+NybZBfmSvDs3BHkj8/8AljukDOjH4FnunbbQdYNuxaw5KYeGYdTwjR/VIwfrPju4/acVlispzHNLG4WLJpGEcWuIRAxShQtUzfF9CCw8idTm4hm/OU8zekgtf/CVfoWa8mFRmYnSnfK5n24Xt9ZHatKqgQhCAQhCAQhCBCqXy+T3mpWejDM/7T2D+BXSqGy6TXr2N9CjjvwLpZT6rIK1cVG5OKYSgWkjzpWN9J7R2lbCposxjWDU1rW9gssocjKcSYhSxnU+qhB6A+61ogozygobVVI/0oZmnqc0j2qrFc/lDQAxUj/lCeRvG3NkqmXKBE4JEg2IoD7Epbd6CBtQOooF0HXoPclPHtTT44Jb24hAG23q4hB8dCM7X3Iv/NAE+N6ANB42Habe1IQmyOtm/XYeoOCDYVMwNY0DUGNA4WAWZ8rGH8zitSLaJTHO3cRI3T94OWmY9Q6B6lRvlB0WbVUs/wA7TyRHpikDh3THsVRVzVI3xoUQPT1KRp8XUH2OTFVzVVTyehUQu7JBfuutWLIVO+xBGsEHsWs8Kn5yCJ/pxRu7Wgqj1IQhAIQhAIQhALOGVyrD8TnI+QIovsRgnvcVo8rKnLCq52tqZPSqJT2PICD4hKY8pxUTyoOoyVwZ+LUg3Sud9iGR3sC1Is3ZDYM7FWO+bp6iTrs2P1SFaRCoprygqjTSRfrpOOizfaqgK7/LhX85iYiGkQU7R0OeS4+pvauAKBpKEWSFQKOgJEnjYlCBQe7vCN/EJB37Pclvt6+pA4DQEh29vekvrHHuSO8dqBVFUC+jsUjAT2+xNeNKo1pyYrufo6ef52mhk63RtJHbdV75QdNelppbaWVRbfc18L/a1q+/kYq+cwmnF7mIzxHhmTPzR9ktXly6QXwtzvm6ind2yBv8SDPAKlaVCCpWhQSsv49fqWnMndTzmG0zr6eZDT0tNlmJu9aMyQPvhkXB0o7HlUdqhCEAhCEAhCEDJnWaTuBPYFkXEX3ked8jz2uJWt6382/6j/wlZDqz57vrO9aCByieVIVBIoLV8ninvWVMno0rGfblv/xq+lUHk60VoKqe2mSZkQO9sbL+t5VlcrcU/JaOoqNsMEj231GQN8wdbs0daozPysrufxGrmvcOqZGji2M823uaF8pybTtsNOvadpO0pxQNTSnFNKAQhAUC+Og7Ck/mhKEA0XPUlzUBIOhA7o2pjwnBBQXd5PdZemqYfm6hrwOEkYv3sK6bK/FnYTVaPisa/wCw8O9irPILX5ldJCTompyQNmdG69+wq3coEHOYbWM2mll7c0qjKl1K3WvPGbhTsKgmb7R61onI3/6yP9bP+NZ0YfYtGZGx/Zkf62b8aDuEIQqBCEIBCEIGTC7SN4PqWQ8RHwsn6x4++Vr15sCdwWQ8SN5ZCNssv7woPE5ed5U0hXnIJ0DWdA6ToUGmMieH81hUJOuZ0kx3ec7ze4BeXLrXZmHiIEgzzxtPFjPPI7WtXa8mqMQ0kEQ1Mgib90Kusv5+ApR+mlPZGFRSoTCnJpQIUwpyQoEQhF0AEBG9CgchASqhLJUIUHQZOKvmsTpX3sDNmO4h7SLdtlprFI86GVtr3ikFv9hWTsJn5ueGT5ueF/U2RpK1y0ggbiO4hBjJrC3zTraS09I0FTMXp5Q0/N1dRHa2bUTC3S8n2rzMQTsb46j71pDJEy2GQ8XSnteVm+MrSmSg/wBl0/Q/8ZQdehCFQIQhAIQhB5sSfmwyO3RSHsYVkN7r3O8k9pJWquW9TzdBVPBsW08hv/tsspcPGpBBKV7uSVAZ62mhH+JURjqDg49zV4JV3mQmlD8Va4i/NU08g+t5jL/fKg0mAqmy/O+DpW7c+Y/dA9qtoKlcvkvw1M2+qGU9ZeNPcqKnKaUOKa4oEQU26VAtkh70aNyNigG3S2SJQEDgeCUpl0o8akAlSXSoGv1HoPqWucFnz6eGT04YndrAskR6xuutPZNavncLpHbqdkZ+tHeN3e0oM+ZUaYx4tVi1s6XnB0OaDdc4wrvsvMObimdtfSwO6bF7fYq/Yg9UZWi8jM2dhkY2skmb9+4Wc41e+QWa9HO30anR0FjT70FnoQhUCEIQCEIKDjcrlTmYXUfSzI+nOeAs0P8AHYr9y81ebQxx30y1LRbeGtc/2BUA5BDIrK8nyMnEpTsbQS36TPDb1FVq8K2fJ2g/rNW/0aeFn2pHE/hQXuFQWW6tz68R/NQRjrcSfcr9WacqJk/pOpMjS057C2+oxBgsRwvfTvug48lMchxTbqBUXHFMJSXQSDgnNUbSpWIEKR7k4hRuKBzUhdvTAbakt0Dw7QlB2KO6cHIJGkX0b1pDI3EW4TBf5Tql44NdUSEe/rWbmHStMZJZCcJpbgizZWbrhkz2g9YAKCrPKGb/AGhTnfRDumeqzYrQ8oYf1+n/ANH/AMz1VzUHpYVdOQCbzKpm58T+1pHsVJtKt3yf5/hqpnpQwu6w549qC7UIQqBCEIBIUqQoKP8AKBxAmopqfYyF8x4ue/Mb2Bju0KpXq+8p+TmorpxUwSR5wgZFzT7tBDXvdcP0+nqsqoxHkDicJs6inPGMNmaeIzTfuCDmHBWt5PctquoZ6dKx/DzJbH94uIoeROIzODGUVTc7ZGOhYNOsl9tCvfJlyGGHROdIQ+pmAz3D4rGD4sbeA132lB24XG5QuQzMRYCHc3URghklrtcPQeN247F2QSoMuY5yCxGmJ5ylkewf4kINRGRv80Zw62hcq7XbaNY2jqWzV83E8Dpqj8/Twyne9jHOHQ4i4QZCIRZahkyaYSTf8ijGm+h0rR2By9NPyBwtnxaGm62Z57XXQZWDk9r+BWrv/DsP/wAlR/sYvcvLNk/wt2uhpupub6kGXC/pUbnBanhyf4W06KGm6253rXtZyToBqoqMf/CH3IMlBLZaxl5H4e741DSfsYx6gvOeQOF3v+Q01/qIMrhqe1g8FapbyIw0aqGl/ZMKkPI7D/8AI0n7GP3IM08m+T89bKIqdhcbgOfY83E30nu1Do2rUmB4c2ngip2fFijawHVew0u6SdPWp6OkjiaGRMYxjdTGNDGDoaNCnKCgvKC/v8H+jb++kVXBX3lo5FT1XN1dO0yPijMckQ+M+POzmuYNpBLrjWbjdY0PJGWuLXAtc3W1wLXtPFp0hQOarOyDz2r5G3+PSvsN5bIw+olVg3pHcu4yPvP9K0+bcj4ZrrAuDQYH2LrahcDWg0mhCFQIQhAIQhAJEqECBKhCAQhCAQhCAQhCAQhCAQhCAQhCAQhCAQhCBCqXy1/nY/G9CEHCQbOtXjkv/u3WkQoO0QhCoEIQg//Z",
             price: "399",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
@@ -266,7 +266,7 @@ let clothes = [
             id: 17,
             name: "Рюкзак IKEA",
             description: "Простой и удобный рюкзак от IKEA, идеальный для города и путешествий.",
-            image: "path/to/ikea-backpack.jpg",
+            image: "https://irecommend.ru/sites/default/files/product-images/459573/r57J2VfoWy8AXfWZ27GA.jpg",
             price: "999",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
@@ -276,11 +276,134 @@ let clothes = [
             id: 18,
             name: "Шарф Zara",
             description: "Теплый и стильный шарф от Zara для холодной погоды.",
-            image: "path/to/scarf-zara.jpg",
+            image: "https://static.zara.net/assets/public/dc96/3e40/8f4343168a4e/07581995cd4e/05875311430-e1/05875311430-e1.jpg?ts=1733408340812&w=744&f=auto",
             price: "299",  // Цена в BYN
             currency: "BYN",  // Валюта
             category: "Одежда",
             brand: "Zara"
+        }
+    ];
+    
+    let appliances = [
+        {
+            id: 1,
+            name: "Микроволновая печь Samsung",
+            description: "Компактная и мощная микроволновка с грилем и быстрым разогревом.",
+            image: "https://images.samsung.com/is/image/samsung/p6pim/ru/me732k-xbw/gallery/ru-microwave-me732k-xbw-53184758?$720_576_PNG$",
+            price: "349",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Samsung"
+        },
+        {
+            id: 2,
+            name: "Блендер Philips HR3652",
+            description: "Мощный блендер с технологией ProBlend 6 3D, идеально подходит для смузи.",
+            image: "https://images.philips.com/is/image/PhilipsConsumer/HR3652_00-IMS-ru_RU?$jpglarge$&wid=1250",
+            price: "289",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Philips"
+        },
+        {
+            id: 3,
+            name: "Кофемашина DeLonghi Magnifica",
+            description: "Автоматическая кофемашина для эспрессо с капучинатором.",
+            image: "https://m.media-amazon.com/images/I/71os5qeX6dL._AC_SL1500_.jpg",
+            price: "1020",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "DeLonghi"
+        },
+        {
+            id: 4,
+            name: "Электрочайник Xiaomi Mi Smart Kettle",
+            description: "Умный чайник с поддержкой Bluetooth и регулировкой температуры.",
+            image: "https://cdn.thewirecutter.com/wp-content/media/2022/06/electrickettles-2048px-03488.jpg",
+            price: "149",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Xiaomi"
+        },
+        {
+            id: 5,
+            name: "Мультиварка Redmond RMC-M4502",
+            description: "45 автоматических программ приготовления. Легкость и удобство.",
+            image: "https://images.redmond.company/products/1/3/7/1377/1377.970.jpg",
+            price: "239",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Redmond"
+        },
+        {
+            id: 6,
+            name: "Тостер Bosch TAT3A014",
+            description: "Компактный тостер с функцией центрирования и разморозки.",
+            image: "https://media3.bosch-home.com/Product_Shots/1000x/149967_TAT3A014_def.jpg",
+            price: "119",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Bosch"
+        },
+        {
+            id: 7,
+            name: "Кухонный комбайн Kenwood FDM302SS",
+            description: "Многофункциональный прибор: измельчение, нарезка, взбивание и смешивание.",
+            image: "https://kenwoodworld.ru/media/catalog/product/cache/6/image/700x700/9df78eab33525d08d6e5fb8d27136e95/f/d/fdm302ss_1.jpg",
+            price: "459",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Kenwood"
+        },
+        {
+            id: 8,
+            name: "Мясорубка Moulinex ME106832",
+            description: "Простая в использовании и мощная мясорубка с насадками.",
+            image: "https://img.mvideo.ru/Pdb/20093728b.jpg",
+            price: "279",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Moulinex"
+        },
+        {
+            id: 9,
+            name: "Хлебопечь Panasonic SD-ZB2512",
+            description: "Готовит хлеб, тесто, варенье. Металлический корпус, 33 программы.",
+            image: "https://cdn.leroymerlin.ru/lmru/image/upload/v1619092184/lmrucms/88236959.jpg",
+            price: "699",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Panasonic"
+        },
+        {
+            id: 10,
+            name: "Соковыжималка Scarlett SC-JE50S01",
+            description: "Широкая горловина, металлический корпус, высокая мощность.",
+            image: "https://scarlett.ru/upload/resize_cache/iblock/7dd/600_600_1/7dd43f2d69e2047cbb57e8c4fda94b5d.jpg",
+            price: "189",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Scarlett"
+        },
+        {
+            id: 11,
+            name: "Мини-печь Gorenje MO20A3B",
+            description: "Компактная настольная духовка с грилем и конвекцией.",
+            image: "https://gorenje.by/medias/1-gorenje-mini-pech.jpg?context=bWFzdGVyfHJvb3R8MjMxNzV8aW1hZ2UvanBlZ3xoN2UvaDk4LzEwODkwNzQyMTE0MzE4LmpwZ3wyMmYzZTc2NmFkN2M0MzEyYmE4YjE5YzQxY2Y1MjUwYzNlNzA0NDJiODg3ODQ2NmU1N2UwNjM3NmQzMmE1YzFi",
+            price: "339",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Gorenje"
+        },
+        {
+            id: 12,
+            name: "Посудомоечная машина Beko DFS26024X",
+            description: "Узкая, вместительная посудомойка с 6 программами и экономией воды.",
+            image: "https://www.beko.com/content/dam/beko/ru/ru/products/dishwashers/DFS26024X/dfs26024x-dishwasher-1.png",
+            price: "1199",
+            currency: "BYN",
+            category: "Бытовая техника",
+            brand: "Beko"
         }
     ];
     
