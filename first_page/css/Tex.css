@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;
+    gap:10px;
+}
+.product {
+    padding: 10px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Чтобы элементы внутри растягивались по высоте */
+}
+
+.product img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product a {
+    display: block;
+    background-color: rgb(5, 97, 202);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.product .description {
+    flex-grow: 1; /* Этот блок займет доступное пространство */
+    display: flex;
+    align-items: center; /* Центрируем описание по вертикали */
+    justify-content: center; /* По горизонтали */
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px; /* Небольшой отступ сверху */
+}
+
+.product .price {
+    
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.hat{
+    border: 1px solid black;
+    width: 1920px;
+    max-width: 100%;
+    height: 100px;
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+.body {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px; /* Убираем отступы сверху */
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.img:hover {
+    transform: scale(1.3);
+}
+
+/* Обновление футера */
+.nav-footer1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0; /* Уменьшение отступов */
+    gap: 10px; /* Отступ между значками и копирайтом */
+}
+
+.nav-footer1 h6 {
+    margin: 0;
+    font-size: 14px;
+}
