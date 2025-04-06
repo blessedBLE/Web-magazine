@@ -1,12 +1,20 @@
- let productID = window.localStorage.getItem("productID");
+let productId = window.localStorage.getItem("productId");
 
- let single = products.find(function(product){
-    return  product.id = productID;
+let single = products.find(function(product){
+    return product.id == productId;
+});
 
+if(single) {
+    let code = `<div class="product-card">
+                    <img src="${single.images}" alt="">
+                    <div class="product-info">
+                        <h2>${single.name}</h2>
+                        <p>${single.description}</p>
+                        <div class="price">${single.price} ${single.currency}</div>
+                    </div>
+                </div>`;
 
- });
- if(single){
-     let code = ``;
-    document.body.insertAdjacentHTML('afterbegin',code)
-    document.title = single.name;
- }
+    document.body.insertAdjacentHTML('afterbegin', code); 
+    document.title = single.name;  
+}
+

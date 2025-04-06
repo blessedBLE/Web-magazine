@@ -7,7 +7,7 @@ if (catalog && Array.isArray(products)) {
         <h3>${product.name}</h3>
         <p class="description">${product.description}</p>
         <p class="price"><i>${product.price} ${product.currency}</i></p>
-        <a href="#">Подробнее</a>
+        <a href="#" onclick="saveProductId(${product.id})">Подробнее</a>
     </div>`
         catalog.insertAdjacentHTML('beforeend', code);
     })
@@ -22,7 +22,7 @@ if (items && Array.isArray(clothes)) {
         <h3>${cloth.name}</h3>
         <p class="description">${cloth.description}</p>
         <p class="price"><i>${cloth.price} ${cloth.currency}</i></p>
-        <a href="#">Подробнее</a>
+        <a href="#" onclick="saveProductId(${cloth.id})">Подробнее</a>
     </div>`
         items.insertAdjacentHTML('beforeend', newcode);
     })
@@ -37,7 +37,7 @@ if (houseHold && Array.isArray(appliances)){
         <h3>${appliance.name}</h3>
         <p class="description">${appliance.description}</p>
         <p class="price"><i>${appliance.price} ${appliance.currency}</i></p>
-        <a href="#">Подробнее</a>
+        <a href="#" onclick="saveProductId(${appliance.id})">Подробнее</a>
     </div>`
         houseHold.insertAdjacentHTML('beforeend', Globalnewcode);
     })
