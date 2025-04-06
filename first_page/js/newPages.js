@@ -7,6 +7,9 @@ function Tex1(){
 function Kic(){
     location.href = "./kitchen.htm"
 }
+function ret(){
+    location.href = "./fr.htm"
+}
 
 
 
