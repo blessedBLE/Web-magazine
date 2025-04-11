@@ -7,7 +7,7 @@ if (catalog && Array.isArray(products)) {
         <h3>${product.name}</h3>
         <p class="description">${product.description}</p>
         <p class="price"><i>${product.price} ${product.currency}</i></p>
-        <a href="#" onclick="saveProductId(${product.id})">Подробнее</a>
+        <a href="../html/single.htm" onclick="saveProductId(${product.id})">Подробнее</a>
     </div>`
         catalog.insertAdjacentHTML('beforeend', code);
     })
@@ -41,4 +41,8 @@ if (houseHold && Array.isArray(appliances)){
     </div>`
         houseHold.insertAdjacentHTML('beforeend', Globalnewcode);
     })
+}
+
+function saveProductId(productId) {
+    window.localStorage.setItem("productId", productId);
 }

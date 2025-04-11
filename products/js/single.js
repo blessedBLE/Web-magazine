@@ -12,9 +12,11 @@ if(single) {
                         <p>${single.description}</p>
                         <div class="price">${single.price} ${single.currency}</div>
                     </div>
+                    <button class="but" type="button"><p>+</p></button>
+                    <button class="but" type="button"><p>-<p><button>
                 </div>`;
 
     document.body.insertAdjacentHTML('afterbegin', code); 
     document.title = single.name;  
 }
-
+console.log(localStorage.getItem(productId))
