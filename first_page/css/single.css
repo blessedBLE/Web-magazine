@@ -42,5 +42,44 @@ html, body{
 }
 .but{
     width: 150px;
-    
+    height: 30px;
+    background-color: #0074E1;
+    border: none;
+    border-radius: 30px;
+    padding: .75em 1.5em;
+    cursor: pointer;
+    transition: box-shadow 0.2 linear;
+}
+
+.but:hover {
+    box-shadow: 0 .5em 1em 0 rgba(0, 0, 0, 0.15), 0 .4em .5em -.4em rgba(0, 0, 0, 0.4);
+}
+
+
+.minicart{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+
+    background-color: #000;
+    display: flex;
+    justify-content: center; 
+    padding: 7px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#total-cart{
+    position: absolute;
+    bottom: -7px;
+    right: -7px;
+    background: chocolate;
+    color:#fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
 }

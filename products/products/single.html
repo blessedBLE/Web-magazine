@@ -25,12 +25,19 @@
             border: 1px solid rgb(182, 182, 182);
             display: flex;
             gap:15px;
+            position: relative;
         }
 
         .product-card img{
             aspect-ratio: 1/1;
             width: 250px;
             object-fit: cover;
+        }
+
+        .product-card button{
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
         }
 
         .product-info{
@@ -48,16 +55,43 @@
             font-size: 36px;
             font-weight: bold;
         }
+
+        .minicart{
+            position: fixed;
+            top: 30px;
+            right: 30px;
+
+            background-color: #000;
+            display: flex;
+            justify-content: center; 
+            padding: 7px 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #total-cart{
+            position: absolute;
+            bottom: -7px;
+            right: -7px;
+            background: chocolate;
+            color:#fff;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-
-               <a href="https://t.me/DOHComNews" ><img  class="img" src="D:\web-magazine\first_page\img\telegram.png"></a> 
-               <a href="https://www.youtube.com/watch?v=IxX_QHay02M">
-                   <img class="img" src="D:\web-magazine\first_page\img\youtube.png"></a>
-               
-            </div>
+    <a href="cart.html" class="minicart">
+        Ваша корзина
+        <span id="total-cart">0</span>
+    </a>
     <script src="js/base.js"></script>
     <script src="js/single.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 </html>
