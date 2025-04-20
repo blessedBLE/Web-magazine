@@ -79,3 +79,10 @@ function addToCart(productId)
     // Сохраняем данные корзины в локальное хранилище
     window.localStorage.setItem('cart', JSON.stringify(cart));
 }
+
+function view(viewCart){
+    let check = window.localStorage.getItem(cart)
+    if view{
+
+    }
+}
