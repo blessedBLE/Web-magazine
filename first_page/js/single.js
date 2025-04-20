@@ -80,9 +80,3 @@ function addToCart(productId)
     window.localStorage.setItem('cart', JSON.stringify(cart));
 }
 
-function view(viewCart){
-    let check = window.localStorage.getItem(cart)
-    if view{
-
-    }
-}
