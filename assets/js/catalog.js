@@ -1,71 +1,110 @@
-let catalog = document.getElementById("products");
+// =======================
+// ФУНКЦИЯ: Отрисовка карточек товаров на главной или в каталоге
+// =======================
+function renderProductCards(containerId, items) {
+    // Получаем HTML-элемент-контейнер по ID
+    let container = document.getElementById(containerId);
 
-if (catalog && Array.isArray(products)) {
-    products.forEach(function(product) {
-        let code = `  <div class="product-card">
-            <img src="${product.image}" alt="${product.name}">
-            <h3>${product.name}</h3>
-            <p class="description">${product.description}</p>
-            <p class="price"><i>${product.price} ${product.currency}</i></p>
-            <a href="product/single.html" onclick="saveProductId(${product.id})">Подробнее</a>
-        </div>`;
-        catalog.insertAdjacentHTML('beforeend', code);
-    })
+    // Проверяем, что контейнер существует и передан массив товаров
+    if (container && Array.isArray(items)) {
+        // Для каждого товара создаём HTML и вставляем в контейнер
+        items.forEach((item) => {
+            let code = `
+                <div class="product-card">
+                    <img src="${item.image}" alt="${item.name}">
+                    <h3>${item.name}</h3>
+                    <p class="description">${item.description}</p>
+                    <p class="price"><i>${item.price} ${item.currency}</i></p>
+                    <a href="product/single.html" onclick="saveProductId(${item.id})">Подробнее</a>
+                </div>`;
+            container.insertAdjacentHTML("beforeend", code);
+        });
+    }
 }
 
-let  items = document.getElementById("clothes");
+// =======================
+// ОТРИСОВКА КАРТОЧЕК: для всех категорий товаров
+// =======================
+renderProductCards("products", products);     // Общие товары
+renderProductCards("clothes", clothes);       // Одежда
+renderProductCards("appliances", appliances); // Бытовая техника
 
-if (items && Array.isArray(clothes)) {
-    clothes.forEach(function(cloth) {
-        let newcode= ` <div class="product-card">
-            <img src="${cloth.image}" alt="${cloth.name}">
-            <h3>${cloth.name}</h3>
-            <p class="description">${cloth.description}</p>
-            <p class="price"><i>${cloth.price} ${cloth.currency}</i></p>
-            <a href="product/single.html" onclick="saveProductId(${cloth.id})">Подробнее</a>
-        </div>`;
-        items.insertAdjacentHTML('beforeend', newcode);
-    })
-}
+// =======================
+// ОБРАБОТКА КОРЗИНЫ
+// =======================
 
-let houseHold = document.getElementById("appliances");
+// Загружаем массив с товарами из корзины из localStorage или создаём пустой массив
+let cart = JSON.parse(window.localStorage.getItem("cart")) || [];
 
-if (houseHold && Array.isArray(appliances)){
-    appliances.forEach(function(appliance){
-        let Globalnewcode= ` <div class="product-card">
-            <img src="${appliance.image}" alt="${appliance.name}">
-            <h3>${appliance.name}</h3>
-            <p class="description">${appliance.description}</p>
-            <p class="price"><i>${appliance.price} ${appliance.currency}</i></p>
-            <a href="product/single.html" onclick="saveProductId(${appliance.id})">Подробнее</a>
-        </div>`;
-        houseHold.insertAdjacentHTML('beforeend', Globalnewcode);
-    })
-}
+// Получаем контейнер, в который будем выводить содержимое корзины
+let container = document.getElementById("cart-container");
 
+// Счётчик общего количества товаров в корзине
+let totalCart = 0;
+
+// Объединяем все товары в один массив, чтобы искать по id
+const allProducts = [...products, ...clothes, ...appliances];
+
+// Проверяем, есть ли товары в корзине
 if (cart.length === 0) {
+    // Если корзина пустая — показываем сообщение
     container.innerHTML = "<p>Ваша корзина пуста.</p>";
 } else {
-    cart.forEach(item => {
-        let product = products.find(p => p.id === item.id);
+    // Если в корзине есть товары — отображаем каждый
+    cart.forEach((item) => {
+        // Находим товар по его ID в общем массиве всех товаров
+        let product = allProducts.find((p) => p.id === item.id);
+
+        // Если товар найден
         if (product) {
-            totalCart += item.count;
-            container.insertAdjacentHTML("beforeend", `
+            // Текст с ценой: если количество больше 1, показываем сумму
+            let priceText;
+            if (item.count > 1) {
+                priceText = "Итого: " + (Number(product.price) * item.count) + " " + product.currency;
+            } else {
+                priceText = "Цена: " + Number(product.price) + " " + product.currency;
+            }
+
+            // Вставляем HTML карточки товара в корзине
+            container.insertAdjacentHTML(
+                "beforeend",
+                `
                 <div class="cart-item">
                     <img src="${product.image}" alt="${product.name}" width="100">
                     <div>
                         <h4>${product.name}</h4>
-                        <p>${product.price} ${product.currency}</p>
                         <p>Количество: ${item.count}</p>
+                        <p><strong>${priceText}</strong></p>
+                        <button onclick="orderProduct(${product.id})">Заказать</button>
                     </div>
                 </div>
-            `);
+                `
+            );
+
+            // Увеличиваем общий счётчик товаров
+            totalCart += item.count;
         }
     });
 }
 
+// =======================
+// ОБНОВЛЯЕМ СЧЁТЧИК В ШАПКЕ (например: "В корзине: 3")
+// =======================
 document.getElementById("total-cart").innerText = totalCart;
 
+// =======================
+// ФУНКЦИЯ: Сохраняем ID товара в localStorage при переходе на single.html
+// =======================
 function saveProductId(productId) {
     window.localStorage.setItem("productId", productId);
+}
+
+// =======================
+// ФУНКЦИЯ: Обработка кнопки "Заказать"
+// =======================
+function orderProduct(productId) {
+    alert("Вы заказали товар с ID: " + productId);
+    // Здесь можно добавить логику: отправку данных на сервер или переход к оплате
+    // Пример:
+    // window.location.href = "checkout.html?productId=" + productId;
 }

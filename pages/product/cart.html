@@ -1,37 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru">
+  <!-- Язык можно поменять на русский -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Корзина</title>
-    <link rel="stylesheet" href="../../assets/css/common.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../../assets/css/common.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <a href="../../index.htm" class="logo">DOH</a>
-        </div>
-        <a href="../product/cart.html" class="minicart">
-            Ваша корзина
-            <span id="total-cart">0</span>
-        </a>
+      <div class="container">
+        <a href="../../index.htm" class="logo">DOH</a>
+      </div>
+      <div class="minicart">
+        Ваша корзина
+        <span id="total-cart">0</span>
+      </div>
     </header>
-    <main>
-        <div id="cart-container" class="container">
 
-        </div>
+    <main>
+      <div id="cart-container" class="container">
+        <!-- Здесь появится содержимое корзины -->
+      </div>
     </main>
+
     <footer>
-        <div class="socials">
-            <a href="https://t.me/DOHComNews" ><img  class="img" src="../../assets/img/telegram.png"></a> 
-            <a href="https://www.youtube.com/watch?v=IxX_QHay02M"><img class="img" src="../../assets/img/youtube.png"></a>
-        </div>
-        <h6 class="copyright">© 2025 Copyright: D.O.H-Company</h6>
+      <div class="socials">
+        <a href="https://t.me/DOHComNews"
+          ><img class="img" src="../../assets/img/telegram.png"
+        /></a>
+        <a href="https://www.youtube.com/watch?v=IxX_QHay02M"
+          ><img class="img" src="../../assets/img/youtube.png"
+        /></a>
+      </div>
+      <h6 class="copyright">© 2025 Copyright: D.O.H-Company</h6>
     </footer>
+
+    <!-- Порядок подключения важен -->
     <script src="../../assets/js/info.js"></script>
-    <script src="../../assets/js/product/cart.js"></script>
-     
     <script src="../../assets/js/catalog.js"></script>
-</body>
+    <script src="../../assets/js/product/cart.js"></script>
+  </body>
 </html>

@@ -11,6 +11,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/common.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
@@ -19,7 +20,7 @@
       <div class="container">
         <a href="./index.htm" class="logo">DOH</a>
       </div>
-      <a href="../product/cart.html" class="minicart">
+      <a href="../../Web-magazine/pages/product/cart.html" class="minicart">
         Ваша корзина
         <span id="total-cart">0</span>
       </a>
@@ -27,21 +28,21 @@
     <main>
       <div class="container content">
         <div class="categories">
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <img src="assets/img/10556975.png" alt="" />
             <div class="card-body">
               <h5 class="card-title">Одежда</h5>
             </div>
             <a href="pages/fashion.htm"></a>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <img src="assets/img/scale_1200.png" alt="" />
             <div class="card-body">
               <h5 class="card-title">Техника</h5>
             </div>
             <a href="pages/tech.htm"></a>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <img src="assets/img/texnika-dlya-kuxni-2.jpg" alt="" />
             <div class="card-body">
               <h5 class="card-title">Бытовая Техника</h5>
@@ -62,6 +63,10 @@
       </div>
       <h6 class="copyright">© 2025 Copyright: D.O.H-Company</h6>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/product/cart.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
