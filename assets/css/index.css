@@ -1,6 +1,10 @@
 .categories {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap; /* чтобы карточки переносились на новую строку */
+  margin: 0 auto;
+  max-width: 1200px; /* ограничение ширины контейнера */
+  padding: 20px 0;
 }
 
 .categories .card {
@@ -11,13 +15,18 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
-  flex-grow: 1;
-  flex-basis: 33.3333%;
   transition: all 0.1s linear;
+  
+  /* Задаём ширину карточек: 3 в ряд */
+  flex: 1 1 calc((100% - 2 * 15px) / 3); 
+  /* 100% минус 2 gap по 15px, делим на 3 карточки */
+  box-sizing: border-box;
+  min-width: 250px; /* минимальная ширина, чтобы не сжимались слишком сильно */
 }
 
 .categories .card:hover {
   transform: scale(1.1);
+  z-index: 10; /* чтобы масштабированная карточка была поверх */
 }
 
 .categories .card a {
@@ -30,12 +39,27 @@
 }
 
 .categories .card img {
-  aspect-ratio: 3/2;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   height: 265px;
+  width: 100%;
 }
 
 .categories .card .card-body {
   padding: 10px;
   text-align: center;
+}
+
+/* Адаптив для мобильных — одна колонка */
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .categories .card {
+    flex: none;
+    width: 100%;
+    min-width: auto;
+  }
 }
